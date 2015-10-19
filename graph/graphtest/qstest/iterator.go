@@ -3,8 +3,8 @@ package qstest
 import (
 	"sort"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 // IterateNames returns the names for all remanaing elements in the result set

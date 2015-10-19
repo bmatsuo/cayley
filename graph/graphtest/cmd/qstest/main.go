@@ -21,7 +21,7 @@ func init() {
 }
 
 // QSTestImportPath is the default import path for qstest.
-var QSTestImportPath = "github.com/google/cayley/graph/graphtest/qstest"
+var QSTestImportPath = "github.com/bmatsuo/cayley/graph/graphtest/qstest"
 
 // QSTestImportPath is the default name qstest is referred.
 var QSTestPkg = "qstest"

@@ -26,21 +26,22 @@ import (
 
 	"github.com/barakmich/glog"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/internal"
-	"github.com/google/cayley/internal/config"
-	"github.com/google/cayley/internal/db"
-	"github.com/google/cayley/internal/http"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/internal"
+	"github.com/bmatsuo/cayley/internal/config"
+	"github.com/bmatsuo/cayley/internal/db"
+	"github.com/bmatsuo/cayley/internal/http"
 
 	// Load all supported backends.
-	_ "github.com/google/cayley/graph/bolt"
-	_ "github.com/google/cayley/graph/leveldb"
-	_ "github.com/google/cayley/graph/memstore"
-	_ "github.com/google/cayley/graph/mongo"
-	_ "github.com/google/cayley/graph/sql"
+	_ "github.com/bmatsuo/cayley/graph/lmdb"
+	_ "github.com/bmatsuo/cayley/graph/bolt"
+	_ "github.com/bmatsuo/cayley/graph/leveldb"
+	_ "github.com/bmatsuo/cayley/graph/memstore"
+	_ "github.com/bmatsuo/cayley/graph/mongo"
+	_ "github.com/bmatsuo/cayley/graph/sql"
 
 	// Load writer registry
-	_ "github.com/google/cayley/writer"
+	_ "github.com/bmatsuo/cayley/writer"
 )
 
 var (

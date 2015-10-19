@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/google/cayley/graph/graphtest/qstest"
-	"github.com/google/cayley/graph"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/graph/graphtest/qstest"
 )
 
 func BenchmarkTokenKey(b *testing.B) {

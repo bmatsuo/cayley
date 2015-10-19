@@ -15,9 +15,9 @@
 package path
 
 import (
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/graph/iterator"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 // join puts two iterators together by intersecting their result sets with an AND

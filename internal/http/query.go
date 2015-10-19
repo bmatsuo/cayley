@@ -22,9 +22,9 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/google/cayley/query"
-	"github.com/google/cayley/query/gremlin"
-	"github.com/google/cayley/query/mql"
+	"github.com/bmatsuo/cayley/query"
+	"github.com/bmatsuo/cayley/query/gremlin"
+	"github.com/bmatsuo/cayley/query/mql"
 )
 
 type SuccessQueryWrapper struct {

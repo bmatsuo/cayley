@@ -1,7 +1,7 @@
 package iterator
 
 import (
-	"github.com/google/cayley/graph"
+	"github.com/bmatsuo/cayley/graph"
 )
 
 // Unique iterator removes duplicate values from it's subiterator.

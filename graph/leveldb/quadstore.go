@@ -29,9 +29,9 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/graph/iterator"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 func init() {

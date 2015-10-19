@@ -21,9 +21,9 @@ import (
 
 	"github.com/barakmich/glog"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/internal/config"
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/internal/config"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 var ErrNotPersistent = errors.New("database type is not persistent")

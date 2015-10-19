@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 func hasaWithTag(qs graph.QuadStore, tag string, target string) *HasA {

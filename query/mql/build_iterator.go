@@ -20,9 +20,9 @@ import (
 	"math"
 	"strings"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/graph/iterator"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 func (q *Query) buildFixed(s string) graph.Iterator {

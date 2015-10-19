@@ -6,8 +6,8 @@ import (
 	"compress/gzip"
 	"path/filepath"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/exporter"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/exporter"
 )
 
 // Dump the content of the database into a file based

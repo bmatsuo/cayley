@@ -1,11 +1,11 @@
 package cayley
 
 import (
-	"github.com/google/cayley/graph"
-	_ "github.com/google/cayley/graph/memstore"
-	"github.com/google/cayley/graph/path"
-	"github.com/google/cayley/quad"
-	_ "github.com/google/cayley/writer"
+	"github.com/bmatsuo/cayley/graph"
+	_ "github.com/bmatsuo/cayley/graph/memstore"
+	"github.com/bmatsuo/cayley/graph/path"
+	"github.com/bmatsuo/cayley/quad"
+	_ "github.com/bmatsuo/cayley/writer"
 )
 
 type Iterator graph.Iterator

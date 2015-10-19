@@ -30,7 +30,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 // Decoder implements simplified N-Quad document parsing.

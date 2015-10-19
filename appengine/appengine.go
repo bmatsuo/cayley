@@ -23,12 +23,12 @@ import (
 
 	"github.com/barakmich/glog"
 
-	"github.com/google/cayley/internal/config"
-	"github.com/google/cayley/internal/db"
-	"github.com/google/cayley/internal/http"
+	"github.com/bmatsuo/cayley/internal/config"
+	"github.com/bmatsuo/cayley/internal/db"
+	"github.com/bmatsuo/cayley/internal/http"
 
-	_ "github.com/google/cayley/graph/gaedatastore"
-	_ "github.com/google/cayley/writer"
+	_ "github.com/bmatsuo/cayley/graph/gaedatastore"
+	_ "github.com/bmatsuo/cayley/writer"
 )
 
 var (

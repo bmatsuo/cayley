@@ -6,11 +6,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/google/cayley/graph/graphtest/qstest"
-	"github.com/google/cayley/graph/graphtest/testrunner"
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/graph/graphtest/qstest"
+	"github.com/bmatsuo/cayley/graph/graphtest/testrunner"
+	"github.com/bmatsuo/cayley/graph/iterator"
+	"github.com/bmatsuo/cayley/quad"
 	"golang.org/x/net/context"
 )
 

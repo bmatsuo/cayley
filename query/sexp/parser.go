@@ -17,9 +17,9 @@ package sexp
 import (
 	"github.com/badgerodon/peg"
 
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/graph/iterator"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 func BuildIteratorTreeForQuery(qs graph.QuadStore, query string) graph.Iterator {

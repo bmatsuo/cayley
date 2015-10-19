@@ -30,8 +30,8 @@ package iterator
 // Can be seen as the dual of the HasA iterator.
 
 import (
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 // A LinksTo has a reference back to the graph.QuadStore (to create the iterators

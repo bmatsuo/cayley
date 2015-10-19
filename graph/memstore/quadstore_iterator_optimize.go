@@ -15,8 +15,8 @@
 package memstore
 
 import (
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/iterator"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/graph/iterator"
 )
 
 func (qs *QuadStore) OptimizeIterator(it graph.Iterator) (graph.Iterator, bool) {

@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"unicode"
 
-	"github.com/google/cayley/quad"
+	"github.com/bmatsuo/cayley/quad"
 )
 
 

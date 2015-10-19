@@ -21,8 +21,8 @@ import (
 	"github.com/barakmich/glog"
 	"github.com/bmatsuo/lmdb-go/exp/lmdbscan"
 	"github.com/bmatsuo/lmdb-go/lmdb"
-	"github.com/google/cayley/graph"
-	"github.com/google/cayley/graph/proto"
+	"github.com/bmatsuo/cayley/graph"
+	"github.com/bmatsuo/cayley/graph/proto"
 )
 
 const latestDataVersion = 2
