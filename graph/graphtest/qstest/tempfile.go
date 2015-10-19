@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/bmatsuo/cayley/graph/graphtest/testrunner"
+	"github.com/google/cayley/graph/graphtest/testrunner"
 )
 
 type tmpFileKey struct{}

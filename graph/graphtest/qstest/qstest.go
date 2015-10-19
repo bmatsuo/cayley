@@ -11,7 +11,7 @@ import (
 	// TODO(bmatsuo):
 	// Change the testrunner import path if this is going to get mainlined into
 	// github.com/google/cayley.
-	"github.com/bmatsuo/cayley/graph/graphtest/testrunner"
+	"github.com/google/cayley/graph/graphtest/testrunner"
 
 	"github.com/google/cayley/graph"
 	"golang.org/x/net/context"
