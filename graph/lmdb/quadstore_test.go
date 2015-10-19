@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bmatsuo/cayley/graph/graphtest/qstest"
-	"github.com/bmatsuo/cayley/graph/graphtest/testrunner"
+	"github.com/google/cayley/graph/graphtest/qstest"
+	"github.com/google/cayley/graph/graphtest/testrunner"
 	"github.com/google/cayley/graph"
 	"github.com/google/cayley/graph/iterator"
 	"github.com/google/cayley/quad"

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bmatsuo/cayley/graph/graphtest/qstest"
+	"github.com/google/cayley/graph/graphtest/qstest"
 	"github.com/google/cayley/graph"
 )
 
