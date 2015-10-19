@@ -1,6 +1,6 @@
 {
-	"ImportPath": "github.com/google/cayley",
-	"GoVersion": "go1.4.2",
+	"ImportPath": "github.com/bmatsuo/cayley",
+	"GoVersion": "go1.5.1",
 	"Packages": [
 		"./..."
 	],
@@ -12,6 +12,16 @@
 		{
 			"ImportPath": "github.com/barakmich/glog",
 			"Rev": "fafcb6128a8a2e6360ff034091434d547397d54a"
+		},
+		{
+			"ImportPath": "github.com/bmatsuo/lmdb-go/exp/lmdbscan",
+			"Comment": "v1.1.1-6-g918277f",
+			"Rev": "918277f6e019f6ab7f8ce4c2e97ad63b4ce70990"
+		},
+		{
+			"ImportPath": "github.com/bmatsuo/lmdb-go/lmdb",
+			"Comment": "v1.1.1-6-g918277f",
+			"Rev": "918277f6e019f6ab7f8ce4c2e97ad63b4ce70990"
 		},
 		{
 			"ImportPath": "github.com/boltdb/bolt",
@@ -63,6 +73,10 @@
 		{
 			"ImportPath": "github.com/syndtr/gosnappy/snappy",
 			"Rev": "156a073208e131d7d2e212cb749feae7c339e846"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "af03a19e5e18af95235c84e92e6670fdeb0b220a"
 		},
 		{
 			"ImportPath": "gopkg.in/mgo.v2",
